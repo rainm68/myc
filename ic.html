@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	</head>
+	<style type="text/css">
+		*{margin: 0; padding: 0;}
+		body{
+			font-size: 16px;
+			background: #f7f7f7;
+			/*line-height: 1;*/
+		}
+		#head{
+			padding-left: .17rem;
+			padding-right: .17rem;
+			box-sizing: border-box;
+			height:.9rem;
+			background:#21a3f2;
+			line-height: .9rem;
+			display: flex;
+			justify-content: space-between;
+			color: white;
+		}
+		
+		#head .title{
+			font-size: .3rem;
+			
+		}
+		#head .turn{
+			font-size: .28rem;
+			font-family: "黑体";
+		}
+		#head img{
+			width: .45rem;
+			height: .45rem;
+			margin-top: .22rem;
+		}
+		.nav{
+			height: .6rem;
+			background: white;
+			margin-bottom:.22rem ;
+		}
+		.nav ul{
+			list-style:none;
+			display: flex;
+			height: .6rem;
+		}
+		.nav li{
+			width: 25%;
+			text-align: center;
+			color: #9a9a9a;
+			line-height:.6rem ;
+		}
+		.nav li.active{
+			color: #5cbcf4;
+			border-bottom: 1px solid #5cbcf4;
+		}
+		.content{
+			height: 4rem;
+		
+		}
+		.content dl{
+			display: flex;
+			padding-left: .2rem;
+			padding-top: .2rem;
+			height: 2rem;
+			box-sizing: border-box;
+			background: white;
+			margin-bottom: .22rem;
+		}
+		.content dl dt{
+			width: 1.6rem;
+			height: 1.6rem;
+			
+		}
+		.content dl dt img{
+			width: 1.6rem;
+			height: 1.6rem;
+		}
+		.content dl dt {
+			margin-right: .5rem;
+		}
+		.content dl  dd{
+			padding-top: .22rem;
+			box-sizing: border-box;
+			
+		}
+		.content dl  dd .pname{
+			font-size: .3rem;
+			font-weight: bold;
+			letter-spacing: 2px;
+			line-height: .3rem;
+		}
+		.des{
+			width: 4.5rem;
+			margin-top: .3rem;
+			display: flex;
+			justify-content: space-between;
+			
+			font-size: .24rem;
+			color: #5cbcf4;
+			line-height: .24rem;
+		}
+		.des span{
+			
+			/*margin-right: .6rem;*/
+		}
+		.price{
+			width: 4.1rem;
+			margin-top: .3rem;
+			display: flex;
+			justify-content:space-between;
+			font-size: .24rem;
+			line-height: .24rem;
+		}
+		.price span:nth-child(1){
+			color: #9a9a9a;
+		}
+		.price span:nth-child(2){
+			color: #F37221;
+		}
+		.xuanze{
+			position: fixed;
+			right:5.3% ;
+			bottom: 20%;
+			width: .88rem;
+			height: .88rem;
+			background: seagreen;
+			border-radius:50% ;
+			
+		}
+	</style>
+	<body>
+		<header id="head">
+			<div class="turn">
+				<span>&lt; 返回</span>
+			</div>
+			<div class="title">ic晶元制造</div>
+			<div class="logo"> <img src="3.png"/></div>
+			
+		</header>
+		<div class="nav">
+			<ul>
+				<li>推荐</li>
+				<li>快讯</li>
+				<li class="active">产品</li>
+				<li>商机</li>
+			</ul>
+		</div>
+		<div class="content">
+			<dl>
+				<dt><img src="2.png"/></dt>
+				<dd>
+					<div class="pname">x光扫描仪</div>
+					<div class="des">
+						<span>
+							地区：北京
+						</span>
+						<span>
+							类型：设备
+						</span>
+						<span>
+							状态：全新
+						</span>
+					</div>
+					<div class="price">
+						<span>领域互联</span> <span>￥999</span>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt><img src="2.png"/></dt>
+				<dd>
+					<div>x光扫描仪</div>
+					<div class="des">
+						<span>
+							地区：北京
+						</span>
+						<span>
+							类型：设备
+						</span>
+						<span>
+							状态：全新
+						</span>
+					</div>
+					<div class="price">
+						<span>领域互联</span> <span>￥999</span>
+					</div>
+				</dd>
+			</dl>
+				<dl>
+				<dt><img src="2.png"/></dt>
+				<dd>
+					<div>x光扫描仪</div>
+					<div class="des">
+						<span>
+							地区：北京
+						</span>
+						<span>
+							类型：设备
+						</span>
+						<span>
+							状态：全新
+						</span>
+					</div>
+					<div class="price">
+						<span>领域互联</span> <span>￥999</span>
+					</div>
+				</dd>
+			</dl>
+				<dl>
+				<dt><img src="2.png"/></dt>
+				<dd>
+					<div>x光扫描仪</div>
+					<div class="des">
+						<span>
+							地区：北京
+						</span>
+						<span>
+							类型：设备
+						</span>
+						<span>
+							状态：全新
+						</span>
+					</div>
+					<div class="price">
+						<span>领域互联</span> <span>￥999</span>
+					</div>
+				</dd>
+			</dl>
+				<dl>
+				<dt><img src="2.png"/></dt>
+				<dd>
+					<div>x光扫描仪</div>
+					<div class="des">
+						<span>
+							地区：北京
+						</span>
+						<span>
+							类型：设备
+						</span>
+						<span>
+							状态：全新
+						</span>
+					</div>
+					<div class="price">
+						<span>领域互联</span> <span>￥999</span>
+					</div>
+				</dd>
+			</dl>
+				<dl>
+				<dt><img src="2.png"/></dt>
+				<dd>
+					<div>x光扫描仪</div>
+					<div class="des">
+						<span>
+							地区：北京
+						</span>
+						<span>
+							类型：设备
+						</span>
+						<span>
+							状态：全新
+						</span>
+					</div>
+					<div class="price">
+						<span>领域互联</span> <span>￥999</span>
+					</div>
+				</dd>
+			</dl>
+				<dl>
+				<dt><img src="2.png"/></dt>
+				<dd>
+					<div>x光扫描仪</div>
+					<div class="des">
+						<span>
+							地区：北京
+						</span>
+						<span>
+							类型：设备
+						</span>
+						<span>
+							状态：全新
+						</span>
+					</div>
+					<div class="price">
+						<span>领域互联</span> <span>￥999</span>
+					</div>
+				</dd>
+			</dl>
+				<dl>
+				<dt><img src="2.png"/></dt>
+				<dd>
+					<div>x光扫描仪</div>
+					<div class="des">
+						<span>
+							地区：北京
+						</span>
+						<span>
+							类型：设备
+						</span>
+						<span>
+							状态：全新
+						</span>
+					</div>
+					<div class="price">
+						<span>领域互联</span> <span>￥999</span>
+					</div>
+				</dd>
+			</dl>
+		</div>
+		<div class="xuanze">
+			
+		</div>
+	</body>
+	<script type="text/javascript">
+		
+			function rem (doc, win) {  
+			  let docEl = doc.documentElement; //html 考虑以及兼容了 屏幕旋转的事件
+			  //判断事件orientationchange 横屏 事件  或resize 
+			  let resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';  	  
+			  		let recalc = function () {         
+			  			var clientWidth = docEl.clientWidth;   //获取屏幕大小
+			  			if (!clientWidth){ return };   //未获取屏幕尺寸        
+			  			//屏幕大于750
+			  			if (clientWidth >= 750) {
+			                 docEl.style.fontSize = '100px';
+			            } else {
+//			            	html的font-size         100* 设备宽度 / 750
+			                 docEl.style.fontSize = 100*(clientWidth / 750)+ 'px';
+			            }
+			      };   
+			      if (!doc.addEventListener) {return ;}//addEventListener 兼容判断
+  
+			    win.addEventListener(resizeEvt, recalc, false);               // 屏幕大小以及旋转变化自适应
+			    doc.addEventListener('DOMContentLoaded', recalc, false);     // 页面初次打开自适应
+			    recalc();
+			}
+			
+				rem(document,window);
+		
+		
+	</script>
+</html>
